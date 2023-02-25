@@ -1,6 +1,6 @@
 {
   "name": "num-tag",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Tag your \"same\" number",
   "main": "index.js",
   "scripts": {
