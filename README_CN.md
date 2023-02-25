@@ -1,16 +1,16 @@
 # Tag
 
-Tag your "same" number
+为相似的数字贴个标签
 
-## Background
+## 背景
 
-When measuring the stability of the algorithm, it is often difficult to intuitively compare whether the same elements have exchanged positions.
+在测量算法的稳定性时，通常很难直观地比较相同元素是否交换了位置。
 
-## Solution
+## 解决方案
 
-Enhance the original Number by inheriting the basic wrapper type.
+通过继承基本包装类型来增强原始Number。
 
-## Example
+## 案例
 
 `npm install num-tag --save-dev`
 
@@ -58,7 +58,7 @@ var Merge = function(sr, tr, i, m, n){
 }
 ```
 
-There is a Merge sort algorithm, we can observe the output under different input conditions.
+有一个Merge排序算法，我们可以观察不同输入条件下的输出。
 
 ```js
 console.log(sortArray([1, 2, 4, 5, 1, 0]))
@@ -77,8 +77,8 @@ console.log(sortArray([new Tag(1, 3), 2, 4, 5, new Tag(1, 9), 0]))
 //
 ```
 
-Obviously, using the array of Tag can more intuitively see whether the same elements are exchanged.
+显然，使用Tag数组可以更直观地看到是否交换了相同的元素。
 
 ## End
 
-The current output looks strange. My plan is to use the source code to rewrite Number, and this version is a temp solution. 
+当前的输出看起来很奇怪。我的计划是依据源代码重写Number，这个版本是临时解决方案。
