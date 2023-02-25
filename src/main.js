@@ -1,11 +1,13 @@
 export default class Tag extends Number {
 
-    value: number
-    tag: number
-    
-    constructor(val: any, tag: any) {
+    constructor(val, tag) {
+
         super(val)
+
         this.tag = tag
+
         this.value = this.valueOf()
+
     }
+
 }
