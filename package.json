@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/less-famous-ITer/Tag.git"
+    "url": "git+https://github.com/less-famous-ITer/num-tag.git"
   },
   "keywords": [
     "tag",
@@ -21,9 +21,9 @@
   "author": "heyq",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/less-famous-ITer/Tag/issues"
+    "url": "https://github.com/less-famous-ITer/num-tag/issues"
   },
-  "homepage": "https://github.com/less-famous-ITer/Tag#readme",
+  "homepage": "https://github.com/less-famous-ITer/num-tag#readme",
   "dependencies": {
     "ts-node": "^10.9.1",
     "typescript": "^4.9.5"
