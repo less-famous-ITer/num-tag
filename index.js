@@ -1,3 +1,3 @@
 import Tag from './src/main'
-
-export default Tag
+const Tag = require('./src/main')
+module.exports =  Tag
