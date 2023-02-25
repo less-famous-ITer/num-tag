@@ -1,0 +1,32 @@
+{
+  "name": "num-tag",
+  "version": "1.0.0",
+  "description": "Tag your \"same\" number",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node main.ts",
+    "build": "tsc main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/less-famous-ITer/Tag.git"
+  },
+  "keywords": [
+    "tag",
+    "algorithms",
+    "stable",
+    "javascript"
+  ],
+  "author": "heyq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/less-famous-ITer/Tag/issues"
+  },
+  "homepage": "https://github.com/less-famous-ITer/Tag#readme",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "files": ["dist/core"]
+}
