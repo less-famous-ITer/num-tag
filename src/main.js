@@ -1,4 +1,4 @@
-export default class Tag extends Number {
+module.exports = class Tag extends Number {
 
     constructor(val, tag) {
 
